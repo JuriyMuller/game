@@ -3,7 +3,7 @@ const min = document.querySelector(".min-num"),
   guessInput = document.querySelector("#guess-input"),
   guessBtn = document.querySelector("#guess-btn"),
   message = document.querySelector(".message"),
-  winningNumber = Math.floor(Math.random() * 10);
+  winningNumber = Math.floor(Math.random() * (10 - 1 + 1)) + 1;
 
 min.innerText = 1;
 max.innerText = 10;
